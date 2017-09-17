@@ -1,0 +1,9 @@
+{
+  "apps" : [{
+    "name": "iPanda",
+    "script": "server.js",
+    "node_args":"--harmony",
+    "instances" : "2",
+    "exec_mode" : "cluster"
+  }]
+}
